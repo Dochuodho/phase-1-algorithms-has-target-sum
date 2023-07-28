@@ -6,7 +6,7 @@ const seenNumbers = {};
    for (const number of array){
     //n steps
     const compl = target - number;
-    if (complement in seenNumbers) return true
+    if(compl in seenNumbers) return true
 
     seenNumbers[number]= true;
 
